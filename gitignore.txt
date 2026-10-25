@@ -1,0 +1,20 @@
+# Secrets and local configuration — never commit these
+.env
+.env.*
+!.env.example
+echo_keys.json
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+# Encrypted server-side API-key vault (requires ECHO_MASTER_KEY to decrypt)
+echo_vault.enc

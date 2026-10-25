@@ -1,0 +1,8 @@
+{
+  "keys": [
+    { "provider": "groq",       "apiKey": "PASTE_GROQ_KEY_HERE",       "note": "free tier" },
+    { "provider": "gemini",     "apiKey": "PASTE_GEMINI_KEY_HERE",     "enabled": true },
+    { "provider": "openrouter", "apiKey": "PASTE_OPENROUTER_KEY_HERE", "tier": 2 },
+    { "provider": "custom",     "apiKey": "PASTE_KEY_HERE", "baseUrl": "https://api.example.com/v1", "model": "model-name", "enabled": false }
+  ]
+}
